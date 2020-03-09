@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { routerModule } from './routes';
 
+import { SharedComponentsModule } from '../app/shared-component/shared-component.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { routerModule } from './routes';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routerModule
+    routerModule,
+    SharedComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
