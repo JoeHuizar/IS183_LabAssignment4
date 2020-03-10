@@ -21,19 +21,19 @@ export class ArtworkComponent implements OnInit {
     this.similarProducts = [
       {
         image_url: 'assets/img/thumbs/116010.jpg',
-        description: 'Artist Holding a Thistle'
+        description: 'Old Selfie'
       },
       {
         image_url: 'assets/img/thumbs/120010.jpg',
-        description: 'Artist Holding a Thistle'
+        description: 'Old Family Portrait'
       },
       {
         image_url: 'assets/img/thumbs/107010.jpg',
-        description: 'Artist Holding a Thistle'
+        description: 'Selfie with an instrument'
       },
       {
         image_url: 'assets/img/thumbs/106020.jpg',
-        description: 'Artist Holding a Thistle'
+        description: 'Close up and personal'
       }
     ];
   }
